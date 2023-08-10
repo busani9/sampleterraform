@@ -37,7 +37,7 @@ resource "aws_internet_gateway" "devgw" {
 
 
 resource "aws_eip" "devnat-eip" {
-  vpc        = true
+#  vpc        = true
   depends_on = [aws_internet_gateway.devgw]
 }
 
