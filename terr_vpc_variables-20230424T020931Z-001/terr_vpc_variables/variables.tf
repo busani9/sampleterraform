@@ -8,7 +8,7 @@ variable subnet1_cidr_block {
 default = "192.168.0.0/24"
 }
 variable availability_zone {
-default = "ap-south-1b"
+default = "ap-south-1a"
 }
 variable subnet2_cidr_block {
 default = "192.168.2.0/24"
@@ -27,7 +27,7 @@ default = "t2.micro"
 }
 
 variable availability_zone_1 {
-default = "us-east-1b"
+default = "ap-south-1b"
 }
 
 variable autoscaling_group_min_size {
