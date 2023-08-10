@@ -26,4 +26,17 @@ variable instance_type {
 default = "t2.micro"
 }
 
+variable availability_zone_1 {
+default = "us-east-1b"
+}
+
+variable autoscaling_group_min_size {
+default = "2"
+}
+
+variable autoscaling_group_max_size {
+default = "5"
+}
+
+
 
