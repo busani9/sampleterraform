@@ -20,6 +20,7 @@ resource "aws_subnet" "public" {
 resource "aws_subnet" "private" {
   vpc_id     = aws_vpc.dev.id
   cidr_block = "${var.subnet2_cidr_block}"
+availability_zone = "${var.availability_zone_1}"
 
   tags = {
     Name = "${var.tag}-private"
